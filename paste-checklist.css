@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+html, body, paste-checklist, textarea,output {
+  height: 100%;
+  overflow: scroll;
+}
+
+paste-checklist {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100%;
+  padding:1em;
+  gap: 1em;
+  background: palegoldenrod;
+}
+
+paste-checklist output {
+  background: white;
+  border-radius: 1em;
+  height: 100%;
+}
